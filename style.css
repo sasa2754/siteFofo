@@ -1,0 +1,20 @@
+.botoesMenu {
+    background-color: rgb(247, 124, 124);
+    height: 8%;
+    width: 25%;
+    border-radius: 2vw;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2%;
+}
+
+.imagemMenu {
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 20%;
+}
