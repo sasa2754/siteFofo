@@ -13,8 +13,44 @@
     margin-top: 2%;
 }
 
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal */
+    overflow-y: hidden; /* Esconde a barra de rolagem vertical */
+}
+
+.timeline {
+    width: auto; /* Largura automática */
+    height: 100%;
+    white-space: nowrap; /* Impede que os elementos quebrem a linha */
+}
+
+.line {
+    height: 55%;
+}
+
 .imagemMenu {
     margin-top: 2%;
     margin-left: 40%;
     width: 20%;
+}
+
+.imagensMemoriasCima{
+    width: 16%;
+    height: auto; /* Altura automática */
+    border-radius: 2vw;
+    /* margin-top: 0.5%;
+    margin-left: 2%; */
+    margin: 1%;
+    display: inline-block;
+}
+
+.imagensMemoriasBaixo{
+    width: 35%;
+    border-radius: 2vw;
+    /* margin-top: 70%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
 }
